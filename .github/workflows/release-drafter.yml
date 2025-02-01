@@ -28,7 +28,7 @@ jobs:
     steps:
       - uses: release-drafter/release-drafter@v6
         with:
-          version: 1.0.0
+          version: 1.0.1
           commitish: ${{ github.ref }}
           config-name: 'release-drafter.yml'
         env:

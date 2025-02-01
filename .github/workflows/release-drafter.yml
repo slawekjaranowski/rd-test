@@ -19,6 +19,9 @@ name: Release Drafter
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   update_release_draft:
     runs-on: ubuntu-latest

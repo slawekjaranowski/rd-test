@@ -30,6 +30,6 @@ jobs:
         with:
           version: 1.0.1
           commitish: ${{ github.ref }}
-          config-name: 'release-drafter.yml'
+          config-name: 'release-drafter-1.x.yml'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

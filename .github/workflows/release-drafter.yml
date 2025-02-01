@@ -28,8 +28,9 @@ jobs:
     steps:
       - uses: release-drafter/release-drafter@v6
         with:
-          version: 1.0.0
+          version: 2.0.0-beta-1
           commitish: ${{ github.ref }}
+          prerelease: 'true'
           config-name: 'release-drafter.yml'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

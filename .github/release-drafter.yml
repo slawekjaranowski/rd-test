@@ -23,6 +23,9 @@ version-template: $COMPLETE
 
 filter-by-commitish: true
 
+include-pre-releases: true
+prerelease: true
+
 # Emoji reference: https://gitmoji.carloscuesta.me/
 categories:
   - title: ":boom: Breaking changes"
